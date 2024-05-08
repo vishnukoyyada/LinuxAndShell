@@ -1,0 +1,6 @@
+what will it print 
+
+date | echo "thisis"
+
+it will print nothing because  pipe only works when first command sends it to standardad output.
+whereas date sends to standardad input.

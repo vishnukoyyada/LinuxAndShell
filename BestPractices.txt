@@ -1,0 +1,15 @@
+start with she bang saying to terminal to point which shell are we going to use.
+#!/bin/bash
+and add this as well 
+
+##################
+#author:
+#Date:
+#Description:
+#version:
+##################
+
+always use 
+set -x command before writing a script so that  it will add execute in debug mode.
+
+like it will add + symbol in op and show us what command is also executed when an command is executed.

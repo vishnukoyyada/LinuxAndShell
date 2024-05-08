@@ -1,0 +1,38 @@
+df -h to check diskspace
+free -g to check memory.
+nproc to check resources.
+
+
+4 for read 2 for write  1 execute in chmod
+
+and 7 for all read write and execute.
+
+Ex:
+In chmod 644, the digits represent permissions as follows:
+
+First digit (6):
+Binary equivalent: 110
+Permissions for the owner: Read (r) and Write (w) - The owner can view and modify the file content.
+Second digit (4):
+Binary equivalent: 100
+Permissions for the group: Read (r) only - The group members can only view the file content, not modify it.
+Third digit (4):
+Binary equivalent: 100
+Permissions for others: Read (r) only - Everyone else on the system can only view the file content, not modify it.
+
+ps -ef to check all the process.
+
+what will it print ?
+
+date | echo "thisis"
+
+it will print nothing because  pipe only works when first command sends it to standardad output.
+whereas date sends to standardad input.
+
+
+
+Text Manipulation.
+
+grep (searching)
+sed(stream line editor)(searching editing replacing)
+awk (complex searchng)
